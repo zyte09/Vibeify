@@ -1,16 +1,24 @@
 {
   "expo": {
-    "name": "my-app",
-    "slug": "my-app",
+    "name": "Vibeify",
+    "slug": "vibeify",
+    "owner": "zyte09",
+    "scheme": "vibeify",
+    "platforms": ["ios", "android"],
     "version": "1.0.0",
+    "runtimeVersion": {
+      "policy": "appVersion"
+    },
     "orientation": "portrait",
     "icon": "./assets/icon.png",
-    "userInterfaceStyle": "light",
-    "newArchEnabled": true,
     "splash": {
-      "image": "./assets/splash-icon.png",
+      "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0,
+      "url": "https://u.expo.dev/3692671e-02ca-4705-8cde-80760a4171b3"
     },
     "ios": {
       "supportsTablet": true
@@ -23,6 +31,14 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "experiments": {
+      "newArchEnabled": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "3692671e-02ca-4705-8cde-80760a4171b3"
+      }
     }
   }
 }
